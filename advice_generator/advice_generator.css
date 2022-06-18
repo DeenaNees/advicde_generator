@@ -67,3 +67,7 @@ body {
   width: 20px;
   height: 20px;
 }
+
+.advice__button:hover {
+  box-shadow: 0 0 40px hsl(150, 100%, 66%);
+}
