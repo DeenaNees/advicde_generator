@@ -1,12 +1,10 @@
-var diceBtn = document.getElementById("adviceBtn");
-var adviceID = document.getElementById("adviceTitle");
-var adviceContent = document.getElementById("adviceContent");
+const diceBtn = document.querySelector(".advice__button");
+const adviceID = document.querySelector(".advice__title");
+const adviceContent = document.querySelector(".advice__content");
 
 console.log(diceBtn, adviceID, adviceContent);
 
-window.onload = getAdvice;
-
-diceBtn.addEventListener("click", function () {
+diceBtn.addEventListener("click", () => {
   getAdvice();
 });
 
@@ -22,3 +20,5 @@ function getAdvice() {
       alert(`Error ${error}`);
     });
 }
+
+getAdvice();

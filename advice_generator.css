@@ -2,6 +2,8 @@
 html,
 body {
   height: 100%;
+  box-sizing: border-box;
+  padding: 30px;
 }
 
 .wrapper {
@@ -33,6 +35,7 @@ body {
   border-radius: 10px;
   max-width: 480px;
   margin: auto;
+  width: 100%;
 }
 
 .advice__content {
